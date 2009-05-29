@@ -1,0 +1,7 @@
+Experimental script parsing all CSS files and preloading images.
+
+Please note it's not a universal magic tool - you should take care or optimization yourself, make sprites for :hover states. The script was created because sometimes it's necessary to have parts of UI loaded before any HTML is in DOM to make use of it.
+
+Script will not do anything fancy - you have to use window.console capable browser to see anything. Some info, todos and known bugs are commented in freeload.js. There are no images included, so you can throw in yours and experiment with CSS to see changes in the console. There's a filtering mechanism available - it's pretty simple but you can use it to restrict only certain files to be preloaded. It's advised to run this script only once, because parsing CSS can be CPU-consuming.
+
+Assets are added to speed up the demo, please replace them with your original code (JS frameworks for DOMContentLoaded).
